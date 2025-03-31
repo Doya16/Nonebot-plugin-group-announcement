@@ -4,6 +4,22 @@
 
 ---
 
+# 📸 演示截图
+
+以下为插件在群聊、私聊中的使用演示截图：
+
+### 📍 管理员输入效果
+
+![管理员私聊](demo/admin.png)
+
+### 📍 群发公告效果
+
+![群发公告演示](demo/group1.png)
+![群发公告演示](demo/group2.png)
+![群发公告演示](demo/group3.png)
+
+---
+
 ## 🧩 插件功能
 
 - 💬 支持 `.公告 内容` 私聊指令发布全群公告
@@ -28,7 +44,7 @@ SUPERUSERS=["你的QQ号"]
 
 3. 修改插件中管理员 QQ（可选）：
 
-打开 `__init__.py`，将 `ADMIN_ID` 修改为你的 QQ：
+打开 `broadcast_announcement.py`，将 `ADMIN_ID` 修改为你的 QQ：
 
 ```python
 ADMIN_ID = "你的QQ号"
